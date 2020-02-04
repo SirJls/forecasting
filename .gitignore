@@ -1,0 +1,20 @@
+.# Ignore everything
+*
+# We need to recurse into sub directories, don't ignore!
+!*/
+# We need to ignore everything inside subfolders
+*/*/
+# But don't ignore these files
+!.gitignore
+!Setup.hs
+!default.nix
+!external.nix
+!default.nix
+!Makefile
+!README.md
+!regression.cabal
+!cabal.project
+!LICENSE
+!CHANGELOG.md
+!/src/**
+!/data/**
